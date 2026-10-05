@@ -11,7 +11,7 @@ A DJI Tello EDU is flown from a Raspberry Pi 5. One overhead camera finds the Ar
 On a Raspberry Pi with an internet connection:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USER/tello_swarm/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/zoolfahmy/tello_swarm/main/install.sh | bash
 ```
 
 This puts the files in `~/tello_swarm` and creates the Python environment `swarm_env` (OpenCV, NumPy, djitellopy). Run the same line again to update. Files you already have are kept.
